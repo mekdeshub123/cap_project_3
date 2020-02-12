@@ -8,7 +8,7 @@ class Artist():
 
 
 class Artworks():
-    def __init__(self, art_id, artist_name,art_name, price, sold=False ):
+    def __init__(self, art_id, artist_name,art_name, price, sold ):
         self.art_id = art_id
         self.artist_name = artist_name
         self.art_name = art_name
