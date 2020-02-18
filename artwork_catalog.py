@@ -1,18 +1,17 @@
 #Class created for Artist
 
 class Artist():
-    def __init__(self, name, email, art_id):
+    def __init__(self,name, email,):
+        #self.artist_id = artist_id
         self.name = name
         self.email = email
-        self.art_id = art_id
 
 
 class Artworks():
-    def __init__(self, art_id, artist_name,art_name, price, sold ):
-        self.art_id = art_id
-        self.artist_name = artist_name
+    def __init__(self, art_name, price, sold, artist_id ):
         self.art_name = art_name
         self.price = price
         self.sold = sold
+        self.artist_id = artist_id
     # def __str__(self):
     #     return 'Artist_Name: {}, Art_Name: {}, Price:{}, Sold: {}'.format(self.artist_name, self.art_name, self.price, self.sold)
